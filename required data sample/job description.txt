@@ -1,0 +1,3 @@
+Good understanding of Python / Django / Flask tech stack with exposure to RDBMS. Understanding of OOPs and programming fundamentals. Should be able to write efficient algorithms to solve business problems. Should be flexible to cut across programming languages to solve a problem end to end and work with cross-stack dev team.
+
+Should be ready to work in high availability and complex business systems, with readiness to learn and contribute each day.
