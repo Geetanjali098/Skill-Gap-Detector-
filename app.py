@@ -3,6 +3,7 @@
 # Run with: streamlit run app.py
 
 import streamlit as st
+import spacy
 import plotly.graph_objects as go
 
 # Import our custom modules
@@ -89,10 +90,13 @@ st.markdown("""
 # ─────────────────────────────────────────────
 # Load spaCy model (cached so it loads only once)
 # ─────────────────────────────────────────────
+
+
 @st.cache_resource
-def get_nlp_model():
-    """Load and cache the spaCy NLP model."""
-    return load_spacy_model()
+def load_model():
+    return spacy.load("en_core_web_sm")
+
+nlp = load_model()
 
 
 # ─────────────────────────────────────────────
