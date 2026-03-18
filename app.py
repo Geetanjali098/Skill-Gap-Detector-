@@ -91,13 +91,10 @@ st.markdown("""
 # Load spaCy model (cached so it loads only once)
 # ─────────────────────────────────────────────
 
-
 @st.cache_resource
-def load_model():
-    return spacy.load("en_core_web_sm")
-
-nlp = load_model()
-
+def get_nlp_model():
+    """Load and cache the spaCy NLP model."""
+    return load_spacy_model()
 
 # ─────────────────────────────────────────────
 # Header Section
