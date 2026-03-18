@@ -2,11 +2,13 @@
 # Install all dependencies with: pip install -r requirements.txt
 # Then download spaCy model with: python -m spacy download en_core_web_sm
 
-streamlit>=1.32.0
-pdfplumber>=0.10.3
-PyPDF2>=3.0.1
-spacy>=3.7.2
-scikit-learn>=1.4.0
-plotly>=5.19.0
-numpy>=1.26.0
+streamlit==1.32.0
+pdfplumber==0.10.3
+PyPDF2==3.0.1
+spacy==3.7.2
+scikit-learn==1.4.0
+plotly==5.19.0
+numpy==1.26.4
+thinc==8.2.1
+
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
